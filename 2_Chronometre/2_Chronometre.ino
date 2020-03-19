@@ -75,194 +75,194 @@ void displayValue() {
   switch (val) {
     //************ 0 *************
     case (0):
-      digitalWrite(10, LOW);   // fixe la led comme allumée
-      digitalWrite(11, HIGH);   // fixe la led comme allumée
-      digitalWrite(2, HIGH);   // fixe la led comme allumée
-      digitalWrite(3, HIGH);   // fixe la led comme éteinte
-      digitalWrite(4, HIGH);   // fixe la led comme allumée
-      digitalWrite(5, HIGH);   // fixe la led comme allumée
-      digitalWrite(6, HIGH);   // fixe la led comme allumée
-      digitalWrite(7, HIGH);   // fixe la led comme allumée
+      digitalWrite(10, LOW);
+      digitalWrite(11, HIGH);
+      digitalWrite(2, HIGH);
+      digitalWrite(3, HIGH);
+      digitalWrite(4, HIGH);
+      digitalWrite(5, HIGH);
+      digitalWrite(6, HIGH);
+      digitalWrite(7, HIGH);
       // attendre 1 sec
       break;
     //************ 1 *************
     case (1):
-      digitalWrite(10, LOW);   // fixe la led comme allumée
-      digitalWrite(11, LOW);   // fixe la led comme allumée
-      digitalWrite(2, LOW);   // fixe la led comme allumée
-      digitalWrite(3, HIGH);   // fixe la led comme éteinte
-      digitalWrite(4, LOW);   // fixe la led comme allumée
-      digitalWrite(5, LOW);   // fixe la led comme allumée
-      digitalWrite(6, HIGH);   // fixe la led comme allumée
-      digitalWrite(7, HIGH);   // fixe la led comme allumée
+      digitalWrite(10, LOW);
+      digitalWrite(11, LOW);
+      digitalWrite(2, LOW);
+      digitalWrite(3, HIGH);
+      digitalWrite(4, LOW);
+      digitalWrite(5, LOW);
+      digitalWrite(6, HIGH);
+      digitalWrite(7, HIGH);
       // attendre 1 sec
       break;
     //************ 2 *************
     case (2):
-      digitalWrite(10, HIGH);   // fixe la led comme allumée
-      digitalWrite(11, LOW);   // fixe la led comme allumée
-      digitalWrite(2, HIGH);   // fixe la led comme allumée
-      digitalWrite(3, HIGH);   // fixe la led comme éteinte
-      digitalWrite(4, HIGH);   // fixe la led comme allumée
-      digitalWrite(5, HIGH);   // fixe la led comme allumée
-      digitalWrite(6, LOW);   // fixe la led comme allumée
-      digitalWrite(7, HIGH);   // fixe la led comme allumée
+      digitalWrite(10, HIGH);
+      digitalWrite(11, LOW);
+      digitalWrite(2, HIGH);
+      digitalWrite(3, HIGH);
+      digitalWrite(4, HIGH);
+      digitalWrite(5, HIGH);
+      digitalWrite(6, LOW);
+      digitalWrite(7, HIGH);
       // attendre 1 sec
       break;
     //************ 3 *************
     case (3):
-      digitalWrite(10, HIGH);   // fixe la led comme allumée
-      digitalWrite(11, LOW);   // fixe la led comme allumée
-      digitalWrite(2, HIGH);   // fixe la led comme allumée
-      digitalWrite(3, HIGH);   // fixe la led comme éteinte
-      digitalWrite(4, LOW);   // fixe la led comme allumée
-      digitalWrite(5, HIGH);   // fixe la led comme allumée
-      digitalWrite(6, HIGH);   // fixe la led comme allumée
-      digitalWrite(7, HIGH);   // fixe la led comme allumée
+      digitalWrite(10, HIGH);
+      digitalWrite(11, LOW);
+      digitalWrite(2, HIGH);
+      digitalWrite(3, HIGH);
+      digitalWrite(4, LOW);
+      digitalWrite(5, HIGH);
+      digitalWrite(6, HIGH);
+      digitalWrite(7, HIGH);
       // attendre 1 sec
       break;
-    //***** 4 *************
+    //************ 4 *************
     case (4):
-      digitalWrite(10, HIGH);   // fixe la led comme allumée
-      digitalWrite(11, HIGH);   // fixe la led comme allumée
-      digitalWrite(2, LOW);   // fixe la led comme allumée
-      digitalWrite(3, HIGH);   // fixe la led comme éteinte
-      digitalWrite(4, LOW);   // fixe la led comme allumée
-      digitalWrite(5, LOW);   // fixe la led comme allumée
-      digitalWrite(6, HIGH);   // fixe la led comme allumée
-      digitalWrite(7, HIGH);   // fixe la led comme allumée
+      digitalWrite(10, HIGH);
+      digitalWrite(11, HIGH);
+      digitalWrite(2, LOW);
+      digitalWrite(3, HIGH);
+      digitalWrite(4, LOW);
+      digitalWrite(5, LOW);
+      digitalWrite(6, HIGH);
+      digitalWrite(7, HIGH);
       // attendre 1 sec
       break;
     //************ 5 *************
     case (5):
-      digitalWrite(10, HIGH);   // fixe la led comme allumée
-      digitalWrite(11, HIGH);   // fixe la led comme allumée
-      digitalWrite(2, HIGH);   // fixe la led comme allumée
-      digitalWrite(3, LOW);   // fixe la led comme éteinte
-      digitalWrite(4, LOW);   // fixe la led comme allumée
-      digitalWrite(5, HIGH);   // fixe la led comme allumée
-      digitalWrite(6, HIGH);   // fixe la led comme allumée
-      digitalWrite(7, HIGH);   // fixe la led comme allumée
+      digitalWrite(10, HIGH);
+      digitalWrite(11, HIGH);
+      digitalWrite(2, HIGH);
+      digitalWrite(3, LOW);
+      digitalWrite(4, LOW);
+      digitalWrite(5, HIGH);
+      digitalWrite(6, HIGH);
+      digitalWrite(7, HIGH);
       // attendre 1 sec
       break;
     //************ 6 *************
     case (6):
-      digitalWrite(10, HIGH);   // fixe la led comme allumée
-      digitalWrite(11, HIGH);   // fixe la led comme allumée
-      digitalWrite(2, HIGH);   // fixe la led comme allumée
-      digitalWrite(3, LOW);   // fixe la led comme éteinte
-      digitalWrite(4, HIGH);   // fixe la led comme allumée
-      digitalWrite(5, HIGH);   // fixe la led comme allumée
-      digitalWrite(6, HIGH);   // fixe la led comme allumée
-      digitalWrite(7, HIGH);   // fixe la led comme allumée
+      digitalWrite(10, HIGH);
+      digitalWrite(11, HIGH);
+      digitalWrite(2, HIGH);
+      digitalWrite(3, LOW);
+      digitalWrite(4, HIGH);
+      digitalWrite(5, HIGH);
+      digitalWrite(6, HIGH);
+      digitalWrite(7, HIGH);
       // attendre 1 sec
       break;
     //************ 7 *************
     case (7):
-      digitalWrite(10, LOW);   // fixe la led comme allumée
-      digitalWrite(11, LOW);   // fixe la led comme allumée
-      digitalWrite(2, HIGH);   // fixe la led comme allumée
-      digitalWrite(3, HIGH);   // fixe la led comme éteinte
-      digitalWrite(4, LOW);   // fixe la led comme allumée
-      digitalWrite(5, LOW);   // fixe la led comme allumée
-      digitalWrite(6, HIGH);   // fixe la led comme allumée
-      digitalWrite(7, HIGH);   // fixe la led comme allumée
+      digitalWrite(10, LOW);
+      digitalWrite(11, LOW);
+      digitalWrite(2, HIGH);
+      digitalWrite(3, HIGH);
+      digitalWrite(4, LOW);
+      digitalWrite(5, LOW);
+      digitalWrite(6, HIGH);
+      digitalWrite(7, HIGH);
       // attendre 1 sec
       break;
     //************ 8 *************
     case (8):
-      digitalWrite(10, HIGH);   // fixe la led comme allumée
-      digitalWrite(11, HIGH);   // fixe la led comme allumée
-      digitalWrite(2, HIGH);   // fixe la led comme allumée
-      digitalWrite(3, HIGH);   // fixe la led comme éteinte
-      digitalWrite(4, HIGH);   // fixe la led comme allumée
-      digitalWrite(5, HIGH);   // fixe la led comme allumée
-      digitalWrite(6, HIGH);   // fixe la led comme allumée
-      digitalWrite(7, HIGH);   // fixe la led comme allumée
+      digitalWrite(10, HIGH);
+      digitalWrite(11, HIGH);
+      digitalWrite(2, HIGH);
+      digitalWrite(3, HIGH);
+      digitalWrite(4, HIGH);
+      digitalWrite(5, HIGH);
+      digitalWrite(6, HIGH);
+      digitalWrite(7, HIGH);
       // attendre 1 sec
       break;
     //************ 9 **************
     case (9):
-      digitalWrite(10, HIGH);   // fixe la led comme allumée
-      digitalWrite(11, HIGH);   // fixe la led comme allumée
-      digitalWrite(2, HIGH);   // fixe la led comme allumée
-      digitalWrite(3, HIGH);   // fixe la led comme éteinte
-      digitalWrite(4, LOW);   // fixe la led comme allumée
-      digitalWrite(5, HIGH);   // fixe la led comme allumée
-      digitalWrite(6, HIGH);   // fixe la led comme allumée
-      digitalWrite(7, HIGH);   // fixe la led comme allumée
+      digitalWrite(10, HIGH);
+      digitalWrite(11, HIGH);
+      digitalWrite(2, HIGH);
+      digitalWrite(3, HIGH);
+      digitalWrite(4, LOW);
+      digitalWrite(5, HIGH);
+      digitalWrite(6, HIGH);
+      digitalWrite(7, HIGH);
       // attendre 1 sec
       break;
     //************ A **************
     case (10):
-      digitalWrite(10, HIGH);   // fixe la led comme allumée
-      digitalWrite(11, HIGH);   // fixe la led comme allumée
-      digitalWrite(2, HIGH);   // fixe la led comme allumée
-      digitalWrite(3, HIGH);   // fixe la led comme éteinte
-      digitalWrite(4, HIGH);   // fixe la led comme allumée
-      digitalWrite(5, LOW);   // fixe la led comme allumée
-      digitalWrite(6, HIGH);   // fixe la led comme allumée
-      digitalWrite(7, HIGH);   // fixe la led comme allumée
+      digitalWrite(10, HIGH);
+      digitalWrite(11, HIGH);
+      digitalWrite(2, HIGH);
+      digitalWrite(3, HIGH);
+      digitalWrite(4, HIGH);
+      digitalWrite(5, LOW);
+      digitalWrite(6, HIGH);
+      digitalWrite(7, HIGH);
       // attendre 1 sec
       break;
     //************ B *************
     case (11):
-      digitalWrite(10, HIGH);   // fixe la led comme allumée
-      digitalWrite(11, HIGH);   // fixe la led comme allumée
-      digitalWrite(2, LOW);   // fixe la led comme allumée
-      digitalWrite(3, LOW);   // fixe la led comme éteinte
-      digitalWrite(4, HIGH);   // fixe la led comme allumée
-      digitalWrite(5, HIGH);   // fixe la led comme allumée
-      digitalWrite(6, HIGH);   // fixe la led comme allumée
-      digitalWrite(7, HIGH);   // fixe la led comme allumée
+      digitalWrite(10, HIGH);
+      digitalWrite(11, HIGH);
+      digitalWrite(2, LOW);
+      digitalWrite(3, LOW);
+      digitalWrite(4, HIGH);
+      digitalWrite(5, HIGH);
+      digitalWrite(6, HIGH);
+      digitalWrite(7, HIGH);
       // attendre 1 sec
       break;
     //************ C *************
     case (12):
-      digitalWrite(10, LOW);   // fixe la led comme allumée
-      digitalWrite(11, HIGH);   // fixe la led comme allumée
-      digitalWrite(2, HIGH);   // fixe la led comme allumée
-      digitalWrite(3, LOW);   // fixe la led comme éteinte
-      digitalWrite(4, HIGH);   // fixe la led comme allumée
-      digitalWrite(5, HIGH);   // fixe la led comme allumée
-      digitalWrite(6, LOW);   // fixe la led comme allumée
-      digitalWrite(7, HIGH);   // fixe la led comme allumée
+      digitalWrite(10, LOW);
+      digitalWrite(11, HIGH);
+      digitalWrite(2, HIGH);
+      digitalWrite(3, LOW);
+      digitalWrite(4, HIGH);
+      digitalWrite(5, HIGH);
+      digitalWrite(6, LOW);
+      digitalWrite(7, HIGH);
       // attendre 1 sec
       break;
     //************ D *************
     case (13):
-      digitalWrite(10, HIGH);   // fixe la led comme allumée
-      digitalWrite(11, LOW);   // fixe la led comme allumée
-      digitalWrite(2, LOW);   // fixe la led comme allumée
-      digitalWrite(3, HIGH);   // fixe la led comme éteinte
-      digitalWrite(4, HIGH);   // fixe la led comme allumée
-      digitalWrite(5, HIGH);   // fixe la led comme allumée
-      digitalWrite(6, HIGH);   // fixe la led comme allumée
-      digitalWrite(7, HIGH);   // fixe la led comme allumée
+      digitalWrite(10, HIGH);
+      digitalWrite(11, LOW);
+      digitalWrite(2, LOW);
+      digitalWrite(3, HIGH);
+      digitalWrite(4, HIGH);
+      digitalWrite(5, HIGH);
+      digitalWrite(6, HIGH);
+      digitalWrite(7, HIGH);
       // attendre 1 sec
       break;
     //************ E *************
     case (14):
-      digitalWrite(10, HIGH);   // fixe la led comme allumée
-      digitalWrite(11, HIGH);   // fixe la led comme allumée
-      digitalWrite(2, HIGH);   // fixe la led comme allumée
-      digitalWrite(3, LOW);   // fixe la led comme éteinte
-      digitalWrite(4, HIGH);   // fixe la led comme allumée
-      digitalWrite(5, HIGH);   // fixe la led comme allumée
-      digitalWrite(6, LOW);   // fixe la led comme allumée
-      digitalWrite(7, HIGH);   // fixe la led comme allumée
+      digitalWrite(10, HIGH);
+      digitalWrite(11, HIGH);
+      digitalWrite(2, HIGH);
+      digitalWrite(3, LOW);
+      digitalWrite(4, HIGH);
+      digitalWrite(5, HIGH);
+      digitalWrite(6, LOW);
+      digitalWrite(7, HIGH);
       // attendre 1 sec
       break;
     //************ F *************
     case (15):
-      digitalWrite(10, HIGH);   // fixe la led comme allumée
-      digitalWrite(11, HIGH);   // fixe la led comme allumée
-      digitalWrite(2, HIGH);   // fixe la led comme allumée
-      digitalWrite(3, LOW);   // fixe la led comme éteinte
-      digitalWrite(4, HIGH);   // fixe la led comme allumée
-      digitalWrite(5, LOW);   // fixe la led comme allumée
-      digitalWrite(6, LOW);   // fixe la led comme allumée
-      digitalWrite(7, HIGH);   // fixe la led comme allumée
+      digitalWrite(10, HIGH);
+      digitalWrite(11, HIGH);
+      digitalWrite(2, HIGH);
+      digitalWrite(3, LOW);
+      digitalWrite(4, HIGH);
+      digitalWrite(5, LOW);
+      digitalWrite(6, LOW);
+      digitalWrite(7, HIGH);
       // attendre 1 sec
       break;
   }

@@ -20,7 +20,6 @@ int PinsArray[4] = {8, 9, 12, 13};
 
 void setup() {
   displayValue();
-  Serial.begin(9600);
   pinMode(buttonPin_0, INPUT);
   pinMode(buttonPin_1, INPUT);
   pinMode(buttonPin_2, INPUT);
@@ -36,8 +35,7 @@ void setup() {
 }
 
 void loop() {
-  Serial.println(liftFloor);
-
+  
   if (liftState == STOP) {
     for (int i = 0; i <= 3; i++) {
       int pushed = digitalRead(PinsArray[i]);

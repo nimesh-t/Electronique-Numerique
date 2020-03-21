@@ -1,4 +1,9 @@
 /*
+ * Ce programme permet de simuler la commande d'un ascenseur avec 4 niveaux: 0,1,2 et 3.
+ * Le contrôle se fait grâce à 4 BP, un par niveaux.
+ * Lorsqu'un bouton est appuyé, l'ascenseur monte ou descend à l'étage corréspondant au bouton.
+ * L'étage actuel de l'ascenseur est constamment affiché sur le 7 Segment.
+ * Nimesh TAHALOOA et Ahmed TSOROEV
 */
 #define STOP 0
 #define UP 1
@@ -31,7 +36,7 @@ void setup() {
 }
 
 void loop() {
-  Serial.println(userChoice);
+  Serial.println(liftFloor);
 
   if (liftState == STOP) {
     for (int i = 0; i <= 3; i++) {
@@ -52,17 +57,17 @@ void loop() {
       liftState = STOP;
     }
 
-    if (millis() - lastUpdate >= 1000) {
-      lastUpdate = millis();
-      switch (liftState) {
-        case (UP):
-          liftFloor++;
-          break;
-        case (DOWN):
-          liftFloor--;
-          break;
-      }
-      displayValue();
+    switch (liftState) {
+      case(UP):
+        liftFloor++;
+        delay(1000);
+        displayValue();
+        break;
+      case(DOWN):
+        liftFloor--;
+        delay(1000);
+        displayValue();
+        break;
     }
   }
 

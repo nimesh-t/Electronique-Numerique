@@ -20,7 +20,6 @@ void loop() {
     Serial.print("Read DHT11 failed, err="); Serial.println(err);delay(1500);
     return;
   }
-  Serial.print("Lecture OK: ");
   Serial.print(" TEMPERATURE "); Serial.print((int)temperature); Serial.print(" °C, ");
   Serial.print(" HUMIDITE "); Serial.print((int)humidity); Serial.println("%");
   delay(1500);

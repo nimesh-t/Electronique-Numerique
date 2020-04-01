@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Cyclone III"
 set_global_assignment -name DEVICE EP3C16F484C6
-set_global_assignment -name TOP_LEVEL_ENTITY 4b_7segment
+set_global_assignment -name TOP_LEVEL_ENTITY pushbutton_counter
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "11:22:52  MARCH 18, 2020"
 set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
@@ -80,11 +80,8 @@ set_location_assignment PIN_G21 -to CLK
 set_global_assignment -name VECTOR_WAVEFORM_FILE asc.vwf
 set_location_assignment PIN_H6 -to PRN
 set_global_assignment -name BDF_FILE 4b_7segment.bdf
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name VECTOR_WAVEFORM_FILE 7seg.vwf
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "D:/Documents/1TSP/2A/PROJETS/Elec_Num/FPGA/1_Ascenseur/7seg.vwf"
+set_location_assignment PIN_J6 -to D0
 set_location_assignment PIN_H5 -to D1
 set_location_assignment PIN_H6 -to D2
 set_location_assignment PIN_G4 -to D3
@@ -95,5 +92,11 @@ set_location_assignment PIN_H13 -to Hex3
 set_location_assignment PIN_G12 -to Hex4
 set_location_assignment PIN_F12 -to Hex5
 set_location_assignment PIN_F13 -to Hex6
-set_location_assignment PIN_J6 -to D0
+set_global_assignment -name BDF_FILE pushbutton_counter.bdf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_H2 -to PB
+set_global_assignment -name VECTOR_WAVEFORM_FILE pb_counter.vwf
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "D:/Documents/1TSP/2A/PROJETS/Elec_Num/FPGA/1_Ascenseur/pb_counter.vwf"
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

@@ -23,7 +23,7 @@ applicable agreement for further details.
 	(input)
 	(rect 264 384 432 400)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "PB" (rect 5 0 20 12)(font "Arial" ))
+	(text "PB" (rect 5 0 19 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -34,6 +34,7 @@ applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 208 400 264 416))
 )
 (pin
 	(output)
@@ -50,6 +51,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 1272 104 1328 120))
 )
 (pin
 	(output)
@@ -66,6 +68,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 1272 120 1328 136))
 )
 (pin
 	(output)
@@ -82,6 +85,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 1272 136 1328 152))
 )
 (pin
 	(output)
@@ -98,6 +102,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 1272 152 1328 168))
 )
 (pin
 	(output)
@@ -114,6 +119,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 1272 168 1328 184))
 )
 (pin
 	(output)
@@ -130,6 +136,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 1272 184 1328 200))
 )
 (pin
 	(output)
@@ -146,6 +153,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 1272 200 1328 216))
 )
 (symbol
 	(rect 1000 64 1096 224)
@@ -684,26 +692,6 @@ applicable agreement for further details.
 	(pt 776 376)
 )
 (connector
-	(pt 904 88)
-	(pt 904 296)
-)
-(connector
-	(pt 904 296)
-	(pt 904 376)
-)
-(connector
-	(pt 1000 96)
-	(pt 920 96)
-)
-(connector
-	(pt 920 96)
-	(pt 920 88)
-)
-(connector
-	(pt 920 88)
-	(pt 904 88)
-)
-(connector
 	(pt 864 352)
 	(pt 864 328)
 )
@@ -754,6 +742,18 @@ applicable agreement for further details.
 (connector
 	(pt 744 432)
 	(pt 600 432)
+)
+(connector
+	(pt 904 96)
+	(pt 1000 96)
+)
+(connector
+	(pt 904 96)
+	(pt 904 296)
+)
+(connector
+	(pt 904 296)
+	(pt 904 376)
 )
 (junction (pt 776 376))
 (junction (pt 640 376))

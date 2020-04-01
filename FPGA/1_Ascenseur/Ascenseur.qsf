@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Cyclone III"
 set_global_assignment -name DEVICE EP3C16F484C6
-set_global_assignment -name TOP_LEVEL_ENTITY divide_clk_by_50M
+set_global_assignment -name TOP_LEVEL_ENTITY pushbutton_counter
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "11:22:52  MARCH 18, 2020"
 set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
@@ -76,7 +76,6 @@ set_location_assignment PIN_B1 -to LED9
 set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
 set_location_assignment PIN_J6 -to CLRN
 set_location_assignment PIN_H5 -to J
-set_location_assignment PIN_G21 -to CLK
 set_global_assignment -name VECTOR_WAVEFORM_FILE asc.vwf
 set_location_assignment PIN_H6 -to PRN
 set_global_assignment -name BDF_FILE 4b_7segment.bdf
@@ -101,6 +100,8 @@ set_global_assignment -name BDF_FILE divide_clk_by_10.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE divide_by_10.vwf
 set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "D:/Documents/1TSP/2A/PROJETS/Elec_Num/FPGA/1_Ascenseur/divide_by_10.vwf"
 set_global_assignment -name BDF_FILE divide_clk_by_50M.bdf
+set_location_assignment PIN_G21 -to clock
+set_location_assignment PIN_D2 -to reset
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top

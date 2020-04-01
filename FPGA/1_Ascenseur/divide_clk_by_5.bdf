@@ -23,7 +23,7 @@ applicable agreement for further details.
 	(input)
 	(rect 88 136 256 152)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "clock" (rect 5 0 31 12)(font "Arial" ))
+	(text "clock" (rect 5 0 30 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -39,7 +39,7 @@ applicable agreement for further details.
 	(input)
 	(rect 88 168 256 184)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "reset" (rect 5 0 30 12)(font "Arial" ))
+	(text "reset" (rect 5 0 29 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -762,7 +762,7 @@ applicable agreement for further details.
 	(pt 760 456)
 )
 (connector
-	(text "reset" (rect 936 521 948 545)(font "Arial" )(vertical))
+	(text "reset" (rect 936 513 948 537)(font "Arial" )(vertical))
 	(pt 960 544)
 	(pt 960 496)
 )

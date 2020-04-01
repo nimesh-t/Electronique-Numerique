@@ -20,7 +20,7 @@ applicable agreement for further details.
 */
 (header "symbol" (version "1.2"))
 (symbol
-	(rect 16 16 224 112)
+	(rect 16 16 216 112)
 	(text "divide_clk_by_10" (rect 5 0 102 14)(font "Arial" (font_size 8)))
 	(text "inst" (rect 8 80 25 92)(font "Arial" ))
 	(port
@@ -33,18 +33,18 @@ applicable agreement for further details.
 	(port
 		(pt 0 48)
 		(input)
-		(text "reset  " (rect 0 0 36 14)(font "Arial" (font_size 8)))
-		(text "reset  " (rect 21 43 57 57)(font "Arial" (font_size 8)))
+		(text "reset" (rect 0 0 29 14)(font "Arial" (font_size 8)))
+		(text "reset" (rect 21 43 50 57)(font "Arial" (font_size 8)))
 		(line (pt 0 48)(pt 16 48))
 	)
 	(port
-		(pt 208 32)
+		(pt 200 32)
 		(output)
 		(text "clk_divide_by_10     " (rect 0 0 115 14)(font "Arial" (font_size 8)))
-		(text "clk_divide_by_10     " (rect 72 27 187 41)(font "Arial" (font_size 8)))
-		(line (pt 208 32)(pt 192 32))
+		(text "clk_divide_by_10     " (rect 64 27 179 41)(font "Arial" (font_size 8)))
+		(line (pt 200 32)(pt 184 32))
 	)
 	(drawing
-		(rectangle (rect 16 16 192 80))
+		(rectangle (rect 16 16 184 80))
 	)
 )

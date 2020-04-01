@@ -4,6 +4,7 @@ FPGA/Documentation/
 *incremental_db/
 *output_files/
 *simulation/
+*greybox_tmp/
 
 # Project-specific files #
 *.db_info

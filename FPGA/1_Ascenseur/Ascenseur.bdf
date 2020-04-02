@@ -72,7 +72,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect -104 416 64 432)
+	(rect -280 416 -112 432)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "clock" (rect 5 0 30 12)(font "Arial" ))
 	(pt 168 8)
@@ -85,11 +85,11 @@ applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect -160 432 -104 448))
+	(annotation_block (location)(rect -336 432 -280 448))
 )
 (pin
 	(input)
-	(rect -96 432 72 448)
+	(rect -272 432 -104 448)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "reset" (rect 5 0 29 12)(font "Arial" ))
 	(pt 168 8)
@@ -102,7 +102,7 @@ applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect -152 448 -96 464))
+	(annotation_block (location)(rect -328 448 -272 464))
 )
 (pin
 	(output)
@@ -289,7 +289,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 1424 464 1472 480))
+	(annotation_block (location)(rect 1504 464 1552 480))
 )
 (pin
 	(output)
@@ -340,7 +340,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 1440 488 1488 504))
+	(annotation_block (location)(rect 1472 488 1520 504))
 )
 (pin
 	(output)
@@ -364,7 +364,7 @@ applicable agreement for further details.
 	(output)
 	(rect 496 56 512 232)
 	(text "OUTPUT" (rect 0 137 10 175)(font "Arial" (font_size 6))(vertical))
-	(text "LED_down" (rect 0 5 12 57)(font "Arial" )(vertical))
+	(text "LED_down" (rect 0 5 12 56)(font "Arial" )(vertical))
 	(pt 8 176)
 	(drawing
 		(line (pt 8 176)(pt 8 124))
@@ -1049,7 +1049,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 128 392 288 488)
+	(rect -48 392 112 488)
 	(text "divide_clk_by_50M" (rect 5 0 112 14)(font "Arial" (font_size 8)))
 	(text "inst26" (rect 8 80 37 92)(font "Arial" ))
 	(port
@@ -1767,27 +1767,6 @@ applicable agreement for further details.
 	(pt 504 352)
 )
 (connector
-	(pt 72 512)
-	(pt 72 440)
-)
-(connector
-	(text "reset" (rect 298 496 322 508)(font "Arial" ))
-	(pt 72 512)
-	(pt 504 512)
-)
-(connector
-	(pt 504 512)
-	(pt 992 512)
-)
-(connector
-	(pt 128 440)
-	(pt 72 440)
-)
-(connector
-	(pt 64 424)
-	(pt 128 424)
-)
-(connector
 	(text "etage[1..0]" (rect 682 216 735 228)(font "Arial" ))
 	(pt 776 232)
 	(pt 672 232)
@@ -1832,14 +1811,6 @@ applicable agreement for further details.
 (connector
 	(pt 336 448)
 	(pt 312 448)
-)
-(connector
-	(pt 312 448)
-	(pt 312 440)
-)
-(connector
-	(pt 312 440)
-	(pt 288 440)
 )
 (connector
 	(pt 424 376)
@@ -2063,14 +2034,6 @@ applicable agreement for further details.
 	(pt 158 808)
 )
 (connector
-	(pt 304 816)
-	(pt 302 816)
-)
-(connector
-	(pt 302 816)
-	(pt 104 816)
-)
-(connector
 	(text "etage[1]" (rect -30 800 10 812)(font "Arial" ))
 	(pt 56 816)
 	(pt -32 816)
@@ -2094,10 +2057,6 @@ applicable agreement for further details.
 	(text "etage[0]" (rect 706 680 746 692)(font "Arial" ))
 	(pt 696 696)
 	(pt 910 696)
-)
-(connector
-	(pt 910 696)
-	(pt 912 696)
 )
 (connector
 	(text "J1" (rect 982 672 993 684)(font "Arial" ))
@@ -2183,6 +2142,55 @@ applicable agreement for further details.
 	(pt 504 240)
 	(pt 560 240)
 )
+(connector
+	(pt -104 512)
+	(pt -104 440)
+)
+(connector
+	(pt -48 440)
+	(pt -104 440)
+)
+(connector
+	(pt -112 424)
+	(pt -48 424)
+)
+(connector
+	(pt 312 448)
+	(pt 312 440)
+)
+(connector
+	(text "reset" (rect 298 496 322 508)(font "Arial" ))
+	(pt -104 512)
+	(pt 504 512)
+)
+(connector
+	(pt 504 512)
+	(pt 992 512)
+)
+(connector
+	(pt 112 440)
+	(pt 312 440)
+)
+(connector
+	(pt 294 816)
+	(pt 294 824)
+)
+(connector
+	(pt 112 816)
+	(pt 112 824)
+)
+(connector
+	(pt 104 816)
+	(pt 112 816)
+)
+(connector
+	(pt 294 824)
+	(pt 112 824)
+)
+(connector
+	(pt 294 816)
+	(pt 302 816)
+)
 (junction (pt 504 512))
 (junction (pt 88 -120))
 (junction (pt 552 -136))
@@ -2190,8 +2198,6 @@ applicable agreement for further details.
 (junction (pt 1144 224))
 (junction (pt 504 352))
 (junction (pt 408 440))
-(junction (pt 302 816))
-(junction (pt 910 696))
 (junction (pt 280 216))
 (junction (pt 208 264))
 (junction (pt 504 240))

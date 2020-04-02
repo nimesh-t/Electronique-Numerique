@@ -324,31 +324,6 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 448 632 496 664)
-	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
-	(text "inst8" (rect 3 21 26 33)(font "Arial" ))
-	(port
-		(pt 0 16)
-		(input)
-		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
-		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
-		(line (pt 0 16)(pt 13 16))
-	)
-	(port
-		(pt 48 16)
-		(output)
-		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
-		(line (pt 39 16)(pt 48 16))
-	)
-	(drawing
-		(line (pt 13 25)(pt 13 7))
-		(line (pt 13 7)(pt 31 16))
-		(line (pt 13 25)(pt 31 16))
-		(circle (rect 31 12 39 20))
-	)
-)
-(symbol
 	(rect 328 776 392 856)
 	(text "DFF" (rect 1 0 19 10)(font "Arial" (font_size 6)))
 	(text "inst9" (rect 3 68 26 80)(font "Arial" ))
@@ -674,18 +649,6 @@ applicable agreement for further details.
 	(pt 360 640)
 )
 (connector
-	(pt 448 648)
-	(pt 424 648)
-)
-(connector
-	(pt 424 648)
-	(pt 424 584)
-)
-(connector
-	(pt 392 584)
-	(pt 424 584)
-)
-(connector
 	(text "Q0" (rect 426 320 440 332)(font "Arial" ))
 	(pt 416 336)
 	(pt 504 336)
@@ -694,16 +657,6 @@ applicable agreement for further details.
 	(text "Q0_NOT" (rect 488 408 530 420)(font "Arial" ))
 	(pt 488 424)
 	(pt 504 424)
-)
-(connector
-	(text "Q1" (rect 434 568 448 580)(font "Arial" ))
-	(pt 424 584)
-	(pt 520 584)
-)
-(connector
-	(text "Q1_NOT" (rect 496 632 538 644)(font "Arial" ))
-	(pt 496 648)
-	(pt 520 648)
 )
 (connector
 	(pt 456 864)
@@ -807,8 +760,12 @@ applicable agreement for further details.
 	(pt 224 800)
 	(pt 328 800)
 )
+(connector
+	(text "Q1" (rect 434 568 448 580)(font "Arial" ))
+	(pt 392 584)
+	(pt 520 584)
+)
 (junction (pt 416 336))
-(junction (pt 424 584))
 (junction (pt 432 800))
 (text "Correction du rapport cyclique (50%)     " (rect 736 360 1060 378)(font "Arial" (font_size 12)))
 (text "D0 = !Q2 & !Q0         " (rect 56 264 230 282)(font "Arial" (font_size 12)))

@@ -89,4 +89,5 @@ set_location_assignment PIN_H1 -to LED_user0
 set_location_assignment PIN_F2 -to LED_user1
 set_location_assignment PIN_E1 -to LED_user2
 set_location_assignment PIN_C2 -to LED_E0
+set_location_assignment PIN_J3 -to LED_down
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

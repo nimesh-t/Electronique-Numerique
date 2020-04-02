@@ -65,6 +65,7 @@ set_global_assignment -name BDF_FILE Ascenseur.bdf
 set_global_assignment -name BDF_FILE 2b4_encoder.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE 2b4_encoder.vwf
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "D:/Documents/1TSP/2A/PROJETS/Elec_Num/FPGA/1_Ascenseur/2b4_encoder.vwf"
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
@@ -80,14 +81,13 @@ set_location_assignment PIN_H13 -to HEX3
 set_location_assignment PIN_G12 -to HEX4
 set_location_assignment PIN_F12 -to HEX5
 set_location_assignment PIN_F13 -to HEX6
-set_location_assignment PIN_J2 -to LED_up
-set_location_assignment PIN_J1 -to LED_stop
+set_location_assignment PIN_J1 -to LED_up
+set_location_assignment PIN_J2 -to LED_stop
 set_location_assignment PIN_B2 -to LED_E1
 set_location_assignment PIN_B1 -to LED_E2
 set_location_assignment PIN_H1 -to LED_user0
 set_location_assignment PIN_F2 -to LED_user1
 set_location_assignment PIN_E1 -to LED_user2
 set_location_assignment PIN_C2 -to LED_E0
-set_global_assignment -name VECTOR_WAVEFORM_FILE ascenseur.vwf
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "D:/Documents/1TSP/2A/PROJETS/Elec_Num/FPGA/1_Ascenseur/ascenseur.vwf"
+set_location_assignment PIN_J3 -to LED_down
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

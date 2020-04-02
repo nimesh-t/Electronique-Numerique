@@ -18,7 +18,7 @@
 #
 # Quartus II 64-Bit
 # Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-# Date created = 11:22:53  March 18, 2020
+# Date created = 20:16:28  April 01, 2020
 #
 # -------------------------------------------------------------------------- #
 #
@@ -40,42 +40,49 @@ set_global_assignment -name FAMILY "Cyclone III"
 set_global_assignment -name DEVICE EP3C16F484C6
 set_global_assignment -name TOP_LEVEL_ENTITY Ascenseur
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
-set_global_assignment -name PROJECT_CREATION_TIME_DATE "11:22:52  MARCH 18, 2020"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "20:16:28  APRIL 01, 2020"
 set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
 set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
 set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
 set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
-set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name BDF_FILE divide_clk_by_50M.bdf
+set_global_assignment -name BDF_FILE divide_clk_by_10.bdf
+set_global_assignment -name BDF_FILE divide_clk_by_5.bdf
+set_global_assignment -name BDF_FILE 4b_7segment.bdf
+set_global_assignment -name BDF_FILE bit_compare.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE bit_compare.vwf
+set_global_assignment -name BDF_FILE 3bit_compare.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE 3bit_compare.vwf
 set_global_assignment -name BDF_FILE Ascenseur.bdf
+set_global_assignment -name BDF_FILE 2b4_encoder.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE 2b4_encoder.vwf
+set_location_assignment PIN_G21 -to clock
+set_location_assignment PIN_D2 -to reset
+set_location_assignment PIN_G3 -to BP1
+set_location_assignment PIN_F1 -to BP2
+set_location_assignment PIN_H2 -to BP0
+set_location_assignment PIN_E11 -to HEX0
+set_location_assignment PIN_F11 -to HEX1
+set_location_assignment PIN_H12 -to HEX2
+set_location_assignment PIN_H13 -to HEX3
+set_location_assignment PIN_G12 -to HEX4
+set_location_assignment PIN_F12 -to HEX5
+set_location_assignment PIN_F13 -to HEX6
+set_location_assignment PIN_J2 -to LED_up
+set_location_assignment PIN_J1 -to LED_stop
+set_location_assignment PIN_B2 -to LED_E1
+set_location_assignment PIN_B1 -to LED_E2
+set_location_assignment PIN_H1 -to LED_user0
+set_location_assignment PIN_F2 -to LED_user1
+set_location_assignment PIN_E1 -to LED_user2
+set_location_assignment PIN_C2 -to LED_E0
+set_location_assignment PIN_J3 -to LED_down
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_location_assignment PIN_H5 -to B
-set_location_assignment PIN_J6 -to A
-set_location_assignment PIN_J1 -to S
-set_global_assignment -name VECTOR_WAVEFORM_FILE Ascenseur.vwf
-set_global_assignment -name SIMULATION_MODE FUNCTIONAL
-set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
-set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
-set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
-set_global_assignment -name VECTOR_OUTPUT_FORMAT VWF
-set_global_assignment -name USE_CONFIGURATION_DEVICE ON
-set_global_assignment -name CYCLONEIII_CONFIGURATION_DEVICE EPCS4
-set_global_assignment -name CRC_ERROR_OPEN_DRAIN OFF
-set_global_assignment -name FORCE_CONFIGURATION_VCCIO ON
-set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -rise
-set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -fall
-set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -rise
-set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -fall
-set_location_assignment PIN_J2 -to LED1 -disable
-set_location_assignment PIN_J3 -to LED2 -disable
-set_location_assignment PIN_H1 -to LED3 -disable
-set_location_assignment PIN_F2 -to LED4 -disable
-set_location_assignment PIN_E1 -to LED5 -disable
-set_location_assignment PIN_C1 -to LED6 -disable
-set_location_assignment PIN_C2 -to LED7 -disable
-set_location_assignment PIN_B2 -to LED8 -disable
-set_location_assignment PIN_B1 -to LED9 -disable
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "D:/Documents/1TSP/2A/PROJETS/Elec_Num/FPGA/1_Ascenseur/Ascenseur.vwf"
-set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name VECTOR_WAVEFORM_FILE ascenseur.vwf
+set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_global_assignment -name VECTOR_OUTPUT_FORMAT VWF
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "D:/Documents/1TSP/2A/PROJETS/Elec_Num/FPGA/1_Ascenseur/ascenseur.vwf"

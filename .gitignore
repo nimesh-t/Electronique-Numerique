@@ -1,5 +1,17 @@
 # Directories #
 FPGA/Documentation/
+*db/
+*incremental_db/
+*output_files/
+*simulation/
+*greybox_tmp/
+
+# Project-specific files #
+*.db_info
+*.quiproj.1760.rdr.flock
+*.flock
+*.qpf
+*.qws
 
 # Compiled source #
 ###################
@@ -38,3 +50,6 @@ FPGA/Documentation/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Others #
+*.temp

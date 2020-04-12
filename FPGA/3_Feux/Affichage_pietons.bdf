@@ -636,12 +636,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "g[7..0]" (rect 442 232 473 244)(font "Arial" ))
-	(pt 432 248)
-	(pt 528 248)
-	(bus)
-)
-(connector
 	(text "t[7..0]" (rect 442 264 471 276)(font "Arial" ))
 	(pt 432 280)
 	(pt 528 280)
@@ -663,6 +657,12 @@ applicable agreement for further details.
 	(text "G[7..0]" (rect -62 104 -28 116)(font "Arial" ))
 	(pt -72 120)
 	(pt -8 120)
+	(bus)
+)
+(connector
+	(text "G[7..0]" (rect 442 232 476 244)(font "Arial" ))
+	(pt 432 248)
+	(pt 528 248)
 	(bus)
 )
 (junction (pt 400 248))

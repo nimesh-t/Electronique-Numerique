@@ -23,7 +23,7 @@ applicable agreement for further details.
 	(input)
 	(rect -80 184 88 200)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "Red" (rect 5 0 26 12)(font "Arial" ))
+	(text "Rouge_P" (rect 5 0 50 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -40,7 +40,7 @@ applicable agreement for further details.
 	(input)
 	(rect -80 296 88 312)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "Green" (rect 5 0 35 12)(font "Arial" ))
+	(text "Vert_P" (rect 5 0 39 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -353,7 +353,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect -208 -272 -96 -224)
+	(rect -512 192 -400 240)
 	(text "LPM_CONSTANT" (rect 4 0 125 16)(font "Arial" (font_size 10)))
 	(text "insst9" (rect 3 37 32 49)(font "Arial" ))
 	(port
@@ -381,10 +381,10 @@ applicable agreement for further details.
 		(line (pt 64 40)(pt 64 24))
 		(line (pt 16 40)(pt 16 24))
 	)
-	(annotation_block (parameter)(rect -96 -320 127 -278))
+	(annotation_block (parameter)(rect -400 144 -177 186))
 )
 (symbol
-	(rect -192 -136 -80 -88)
+	(rect -512 328 -400 376)
 	(text "LPM_CONSTANT" (rect 4 0 125 16)(font "Arial" (font_size 10)))
 	(text "insst7" (rect 3 37 32 49)(font "Arial" ))
 	(port
@@ -412,10 +412,10 @@ applicable agreement for further details.
 		(line (pt 64 40)(pt 64 24))
 		(line (pt 16 40)(pt 16 24))
 	)
-	(annotation_block (parameter)(rect -80 -184 143 -142))
+	(annotation_block (parameter)(rect -400 280 -177 322))
 )
 (symbol
-	(rect -184 -24 -72 24)
+	(rect -512 440 -400 488)
 	(text "LPM_CONSTANT" (rect 4 0 125 16)(font "Arial" (font_size 10)))
 	(text "insst8" (rect 3 37 32 49)(font "Arial" ))
 	(port
@@ -443,10 +443,10 @@ applicable agreement for further details.
 		(line (pt 64 40)(pt 64 24))
 		(line (pt 16 40)(pt 16 24))
 	)
-	(annotation_block (parameter)(rect -72 -72 151 -30))
+	(annotation_block (parameter)(rect -400 392 -177 434))
 )
 (symbol
-	(rect -184 88 -72 136)
+	(rect -512 576 -400 624)
 	(text "LPM_CONSTANT" (rect 4 0 125 16)(font "Arial" (font_size 10)))
 	(text "insst6" (rect 3 37 32 49)(font "Arial" ))
 	(port
@@ -474,10 +474,10 @@ applicable agreement for further details.
 		(line (pt 64 40)(pt 64 24))
 		(line (pt 16 40)(pt 16 24))
 	)
-	(annotation_block (parameter)(rect -72 40 151 82))
+	(annotation_block (parameter)(rect -400 528 -177 570))
 )
 (symbol
-	(rect -216 -392 -104 -344)
+	(rect -512 72 -400 120)
 	(text "LPM_CONSTANT" (rect 4 0 125 16)(font "Arial" (font_size 10)))
 	(text "insst10" (rect 3 37 38 49)(font "Arial" ))
 	(port
@@ -505,7 +505,7 @@ applicable agreement for further details.
 		(line (pt 64 40)(pt 64 24))
 		(line (pt 16 40)(pt 16 24))
 	)
-	(annotation_block (parameter)(rect -104 -440 119 -398))
+	(annotation_block (parameter)(rect -400 24 -177 66))
 )
 (connector
 	(pt 640 264)
@@ -606,30 +606,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "S[7..0]" (rect -94 -376 -61 -364)(font "Arial" ))
-	(pt -104 -360)
-	(pt -40 -360)
-	(bus)
-)
-(connector
-	(text "t[7..0]" (rect -86 -256 -57 -244)(font "Arial" ))
-	(pt -96 -240)
-	(pt -32 -240)
-	(bus)
-)
-(connector
-	(text "O[7..0]" (rect -70 -120 -36 -108)(font "Arial" ))
-	(pt -80 -104)
-	(pt -16 -104)
-	(bus)
-)
-(connector
-	(text "P[7..0]" (rect -62 -8 -29 4)(font "Arial" ))
-	(pt -72 8)
-	(pt -8 8)
-	(bus)
-)
-(connector
 	(text "S[7..0]" (rect 442 88 475 100)(font "Arial" ))
 	(pt 432 104)
 	(pt 528 104)
@@ -654,16 +630,43 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "G[7..0]" (rect -62 104 -28 116)(font "Arial" ))
-	(pt -72 120)
-	(pt -8 120)
-	(bus)
-)
-(connector
 	(text "G[7..0]" (rect 442 232 476 244)(font "Arial" ))
 	(pt 432 248)
 	(pt 528 248)
 	(bus)
 )
+(connector
+	(text "t[7..0]" (rect -390 208 -361 220)(font "Arial" ))
+	(pt -400 224)
+	(pt -336 224)
+	(bus)
+)
+(connector
+	(text "O[7..0]" (rect -390 344 -356 356)(font "Arial" ))
+	(pt -400 360)
+	(pt -336 360)
+	(bus)
+)
+(connector
+	(text "P[7..0]" (rect -390 456 -357 468)(font "Arial" ))
+	(pt -400 472)
+	(pt -336 472)
+	(bus)
+)
+(connector
+	(text "G[7..0]" (rect -390 592 -356 604)(font "Arial" ))
+	(pt -400 608)
+	(pt -336 608)
+	(bus)
+)
+(connector
+	(text "S[7..0]" (rect -390 88 -357 100)(font "Arial" ))
+	(pt -400 104)
+	(pt -336 104)
+	(bus)
+)
 (junction (pt 400 248))
 (junction (pt 400 344))
+(text "Constantes correspondants aux caracteres        " (rect -512 -8 -123 10)(font "Arial" (font_size 12)))
+(text "Feux piétons  " (rect 56 -80 212 -56)(font "Arial" (font_size 16))(border))
+(text "Affichage de GO et StOP sur 7segment        " (rect -40 -40 326 -22)(font "Arial" (font_size 12)))
